@@ -1,6 +1,8 @@
 // import functions and grab DOM elements
 
 // let state
+  // user sees goblins from on load
+
 
 // set event listeners 
   // get user input
