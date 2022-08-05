@@ -10,6 +10,8 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: #558e46;
+    
 }
 
 header {
@@ -33,3 +35,86 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+h1 {
+    text-align: center;
+    font-family: Trattatello, fantasy;
+    font-size: 3em;
+    border: 5px black solid;
+    padding: 10px;
+    background-color: burlywood;
+    box-shadow: box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    
+}
+.orc {
+    border: 2px black;
+    width: 66%;
+    border-style: double solid;
+    background-color: burlywood;
+    font-family: fantasy;
+    font-size: 1.5em;
+    padding: 8px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+    position: sticky;
+    cursor: pointer;
+    box-shadow: box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    
+
+}
+
+
+.score {
+    width: 100%;
+    border: 2px black;
+    border-style: double solid;
+    background-color: rgb(186, 16, 16);
+    font-family: fantasy;
+    font-size: 2.5em;
+    text-decoration: underline;
+    padding: 8px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+    box-shadow: box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+}
+
+.hero {
+    font-size: 3em;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border: 0px;
+    box-shadow: box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -webkit-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    -moz-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
+    cursor: pointer;
+    
+}
+
+.hero p {
+    margin: 0;
+    background-color: burlywood;
+    width: 46%;
+}
+
+.hero-hp {
+    text-align: center;
+    border: 12px black solid;
+    width: 46%;
+}
+
+.hero-emoji {
+    text-align: center;
+    border: 22px black solid;
+    font-size: 3em;
+    width: 46%;
+}
+
