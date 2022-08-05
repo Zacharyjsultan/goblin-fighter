@@ -1,4 +1,6 @@
 // import functions and grab DOM elements
+const addOrcButton = document.getElementById('add-orc-button');
+const OrcInputEl = document.querySelector('.orc-input');
 
 const orcListEl = document.querySelector('.orcs-list');
 
@@ -23,7 +25,40 @@ for (let orc of orcs) {
 
     orcListEl.append(orcEl);
 }
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+//add a new goblin to the array
+addOrcButton.addEventListener('click', () => {
+
+//get the name of the new goblin from the input
+    const name = OrcInputEl.value;
+//make a new goblin object
+    const newOrc = {
+        name: name,
+        hp: 3,
+        age: 1,
+    };
+//push this object into our goblin array state
+    orcs.push(newOrc);
+//clear out our div of goblins
+    OrcInputEl.value = '';
+
+
+//as we loop, examine the HP. if the HP is 0, render a flame emojis. otherwise, render a goblin emoji.
+
+});
+
+function displayOrcs() {
+
+    orcListEl.textContent = '';
+
+    //loop through our goblins data and render and append each goblin div to the DOM
+
+    for (let orc of orcs) {
+        const orcEl = renderOrc(orc);
+
+        orcEl.addEventListener('click', () => {
+
+        });
+    }
+
+
+}
