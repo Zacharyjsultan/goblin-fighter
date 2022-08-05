@@ -38,27 +38,9 @@ addOrcButton.addEventListener('click', () => {
     };
 //push this object into our goblin array state
     orcs.push(newOrc);
-//clear out our div of goblins
     OrcInputEl.value = '';
 
-
+  
 //as we loop, examine the HP. if the HP is 0, render a flame emojis. otherwise, render a goblin emoji.
 
 });
-
-function displayOrcs() {
-
-    orcListEl.textContent = '';
-
-    //loop through our goblins data and render and append each goblin div to the DOM
-
-    for (let orc of orcs) {
-        const orcEl = renderOrc(orc);
-
-        orcEl.addEventListener('click', () => {
-
-        });
-    }
-
-
-}
