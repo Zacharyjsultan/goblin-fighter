@@ -118,3 +118,16 @@ h1 {
     width: 46%;
 }
 
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+    background-color: rgb(186, 16, 16);
+    margin: 20px;
+    display: auto;
+    
+}
+
+.orcs-list {
+  
+}
