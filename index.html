@@ -22,14 +22,14 @@
 
     <main>
         <section class="score">
-            🗡️ Orc's Slayed: <span id="dead-orcs">0</span> 🗡️
+            🗡️ Orc's Slayed: <span class="dead-orcs">0</span> 🗡️
              </section>
 
             <section class="orcs-list">
                 <form>
-                <input class="orc-input" placeholder="'Orc Karenoid'">
+                <input type="text" id="orc-input" name="new-orc-name" placeholder="'Orc Karenoid..'"/>
 
-                <button id="add-orc-button">Fight this Orc</button>
+                <button type="submit" id="add-orc-button">Fight this Orc</button>
                 </form>
                 
                 <h2>Orc's Stealing your Lamnas</h2>
@@ -37,10 +37,12 @@
 
             <div class="orc-slayer-game">
                 <section class="hero">
-    
                     <p class="hero-hp">10 HP</p>
                    <p class="hero-emoji">🧙</p>
-       
+                   </section>
+
+                   <section class="orc-troop-section">
+                    <div class="orc-troops"></div>
                    </section>
             <div>
             </div>
