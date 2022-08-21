@@ -48,7 +48,7 @@ h1 {
     -moz-box-shadow: -7px 5px 12px 0px rgba(0,0,0,0.34);
     
 }
-.orc {
+.the-orc {
     border: 2px black;
     width: 66%;
     border-style: double solid;
@@ -128,6 +128,9 @@ h2 {
     
 }
 
-.orcs-list {
-  
+div .orc-troops {
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  align-items: center;
 }
